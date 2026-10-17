@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <name>Skadis Hook</name>
+    <description>在选中的垂直平面上创建宜家 Skadis 洞洞板挂接件。</description>
+    <icon>resources/icons/skadis-hook.svg</icon>
+    <version>0.1.0</version>
+    <date>2026-10-17</date>
+    <maintainer email="oycc0815@hotmail.com">Mian</maintainer>
+    <license>LGPL-2.1-or-later</license>
+    <url type="repository" branch="main">https://github.com/LuckyMian/FreeCad_Plugins</url>
+    <content>
+        <workbench>
+            <name>SkadisHookWorkbench</name>
+            <subdirectory>./</subdirectory>
+        </workbench>
+    </content>
+</package>
